@@ -1,0 +1,48 @@
+{
+  "title": "Obsidian Security — See Everything. Secure Everything.",
+  "voice": {
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "model_id": "eleven_turbo_v2_5",
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.3
+  },
+  "slides": [
+    {
+      "id": "title",
+      "narration": "Welcome to Obsidian Security. In a world where the average enterprise runs over 300 SaaS applications, the question isn't whether you have shadow SaaS — it's how much you can't see. Let's talk about how Obsidian changes that."
+    },
+    {
+      "id": "problem",
+      "narration": "Here's the reality. Your organization's most sensitive data lives in SaaS — Salesforce, Workday, GitHub, Microsoft 365. But traditional security tools were built for networks and endpoints, not cloud applications. Identities are the new perimeter, and most security teams are flying blind. Eighty percent of breaches now involve compromised credentials or identity-based attacks targeting SaaS."
+    },
+    {
+      "id": "architecture",
+      "narration": "Obsidian takes a fundamentally different approach. We connect directly to your SaaS applications through API integrations — no agents, no proxies, no network changes. Our platform ingests configuration data, user activity, and access patterns across your entire SaaS estate. Our analytics engine builds a unified identity graph, maps privilege chains, and continuously monitors for threats — all in real time."
+    },
+    {
+      "id": "identity-graph",
+      "narration": "At the core of everything is the Obsidian Identity Graph. We map every user, every service account, every OAuth token, and every permission across all your connected applications. This gives you a single pane of glass showing who has access to what, how they got it, and whether that access is actually being used. You'll see toxic permission combinations, dormant admin accounts, and shadow integrations you never knew existed."
+    },
+    {
+      "id": "capabilities",
+      "narration": "The platform delivers three key capabilities. First, SaaS Security Posture Management — continuous assessment of misconfigurations across every application. Second, Identity Threat Detection and Response — real-time monitoring for credential compromise, account takeover, and insider threats. And third, Integration Risk Management — discovering and governing every third-party integration and OAuth grant in your environment."
+    },
+    {
+      "id": "detection",
+      "narration": "Let's look at threat detection in action. Obsidian correlates signals across applications to catch attacks that single-app monitoring would miss. An impossible travel event in Salesforce, followed by a bulk data export, combined with a new OAuth grant in GitHub — individually these might be noise. Together, they tell the story of a compromised identity moving laterally across your SaaS environment. Obsidian connects these dots automatically."
+    },
+    {
+      "id": "integrations",
+      "narration": "We integrate with over 150 SaaS applications out of the box — from productivity suites like Microsoft 365 and Google Workspace, to business-critical apps like Salesforce, Workday, ServiceNow, and GitHub. Deployment takes minutes, not months. API-based connectivity means zero impact on end users and no infrastructure to manage."
+    },
+    {
+      "id": "outcomes",
+      "narration": "Our customers see real results. Ninety-five percent reduction in SaaS misconfigurations within the first 30 days. Mean time to detect identity threats drops from weeks to minutes. Complete visibility into shadow SaaS and ungoverned integrations. And security teams get hours back every week by eliminating manual access reviews."
+    },
+    {
+      "id": "cta",
+      "narration": "The SaaS attack surface is growing faster than any security team can keep up with manually. Obsidian gives you the visibility, detection, and response capabilities to stay ahead. Let's schedule a demo and show you what's hiding in your SaaS environment. Thank you."
+    }
+  ]
+}
